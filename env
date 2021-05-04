@@ -1,0 +1,7 @@
+DISTRICT_ID = 265
+MIN_AGE = 18
+MAX_AGE = 32
+NO_OF_DAYS = 7
+TWILIO_ACCOUNT_ID = <TWILIO_ACCOUNT_ID>
+TWILIO_TOKEN = <TWILIO_TOKEN>
+URL = https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByDistrict?district_id=
