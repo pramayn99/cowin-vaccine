@@ -56,7 +56,6 @@ class Vaccination:
             self.send_notification(sessions=filtered_sessions)
 
     def ping_and_get_district_data(self, date):
-        print(self.URL)
         response = requests.get(
             f'{self.URL}{self.DISTRICT_ID}&date'
             f'={date}')
