@@ -45,9 +45,9 @@ class Vaccination:
                 'G': session.get('min_age_limit')
             })
 
-        client.messages.create(to="<TWILIO_REGISTERED_MOBILE_NUMBER>",
-                               from_="<TWILIO_MOBILE_NUMBER>",
-                               body=body)
+            client.messages.create(to="<TWILIO_REGISTERED_MOBILE_NUMBER>",
+                                   from_="<TWILIO_MOBILE_NUMBER>",
+                                   body=body)
 
     def process_session_data(self, session_data):
         sessions = session_data.get('sessions', [])
