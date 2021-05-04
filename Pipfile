@@ -11,8 +11,6 @@ requests = "*"
 schedule = "*"
 twilio = "*"
 python-dotenv = "*"
-boto3 = "*"
-lxml = "*"
 
 [requires]
 python_version = "3.7"
